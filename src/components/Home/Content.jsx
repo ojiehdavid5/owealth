@@ -4,6 +4,7 @@ import {useEffect} from 'react'
 import AOS from 'aos'
 
 import image from '../../assets/Landingpage/man.png'
+import chow from '../../assets/Landingpage/video.mp4'
 
 
 const Content = () => {
@@ -26,16 +27,24 @@ const Content = () => {
         How? we make you set goals for your money and a<br/> plan to reach them. Let some elegance into your <br/>Income!
         </p>
 
-        <button className='border-[#fff] p-[1rem] w-[10rem] rounded-xl border-[6px]' >
+        <button className='border-[#fff] p-[1rem] w-[10rem] rounded-xl  border-r-8' >
           Get Started
         </button>
 
       </div>
       <div className=""  data-aos="fade-right">
-        <img src={image}
+        {/* <img src={image}
         className='w-[50rem] h-[50rem]'
         />
 
+ */}
+
+<video autoPlay loop muted  className='w-full  h-full object-cover rounded-lg  mr-[rem]   p-4'>
+                <source src={chow}  className='h-[200rem] w-[40rem]'  type="video/mp4"/>
+                Your browser does not support this tag
+
+
+            </video>
 
       </div>
 
