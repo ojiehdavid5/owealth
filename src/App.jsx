@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Home from './components/Home/Home'
+import Landing from "../src/components/Lepole/Landing";
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
@@ -13,11 +13,12 @@ function App() {
   },[]);
 
   return (
-    <div className=''>
-    <Home/>
+    <>
+
+      <Landing/>
     
      
-    </div>
+    </>
   )
 }
 

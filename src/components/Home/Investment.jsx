@@ -17,7 +17,8 @@ const Investment = () => {
             <div className=" flex flex-row">
 
             </div>
-
+            
+            Arrow_right_light
         </div>
 
       
