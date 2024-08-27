@@ -15,25 +15,30 @@ const Landing = () => {
   return (
     <>
 
-    <div className=" mx-auto container min-h-screen ">
-      <nav className=' absolute lg:top-6 top-8  flex lg:space-x-[55rem] space-x-[10rem] ' > 
+    <div className=" mx-auto  mr-[3rem] ml-[3rem] container min-h-screen ">
+      <nav className=' absolute top-6  flex  ' > 
         <img src={Logo} className=' w-[7rem]  flex justify-start'/>
-         <span className='hidden lg:flex'>
+         <span className='hidden lg:flex  lg:justify-end'>
           <button className='bg-transparent '>
 about
           </button>
           <button className='bg-yellow-400  text-[#000] px-[3rem] rounded-[2rem]'>
 Talk to us
           </button>
+
+
+
+
+          <button onClick={toggle} className='lg:hidden flex justify-end'>
+       {clicked? <X/>:<AlignJustify/>} 
+        </button>
         </span>
 
 
-        <button onClick={toggle} className='lg:hidden flex justify-end'>
-       {clicked? <X/>:<AlignJustify/>} 
-        </button>
+       
       </nav>
 
-      {clicked&&(<div className='flex   h-[15rem]  w-[389px] bg-[#000] flex-col  space-y-[2rem] items-center absolute top-[6rem] z-[99]'>
+      {clicked&&(<div className='flex   h-[15rem]  w-full bg-[#000] flex-col  space-y-[2rem] items-center absolute top-[6rem] z-[99]'>
       <button className='bg-transparent  mt-[2rem]'>
 about
           </button>
