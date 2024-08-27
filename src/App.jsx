@@ -14,8 +14,11 @@ function App() {
 
   return (
     <>
+<div className="">
+<Landing/>
 
-      <Landing/>
+
+</div>
     
      
     </>
