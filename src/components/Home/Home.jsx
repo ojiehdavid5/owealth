@@ -13,6 +13,9 @@ const Home = () => {
 </div>
 
 <Investment/>
+
+
+
       
 
       
