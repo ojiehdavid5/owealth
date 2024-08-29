@@ -13,6 +13,7 @@ const Content = () => {
       offset: 200,
       duration: 900,
       easing: 'ease-in-sine',
+      
       delay: 100,
     });
   },[]);
