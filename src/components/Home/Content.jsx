@@ -14,6 +14,8 @@ const Content = () => {
       duration: 900,
       easing: 'ease-in-sine',
       
+      
+      
       delay: 100,
     });
   },[]);
