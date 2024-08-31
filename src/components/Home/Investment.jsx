@@ -11,6 +11,10 @@ const Investment = () => {
                     <h1>Establish a Plan</h1>
 
                 </div>
+                
+                
+                
+                
                
 
             </div>
