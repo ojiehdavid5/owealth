@@ -53,7 +53,7 @@ Talk to us
 
 
  <div className='    '>
-  {/* <div className=" ">
+   <div className=" ">
     <h4 className=''>End To End
 Product Design &
 Branding Agency</h4>
@@ -64,10 +64,12 @@ parly stage startine</p>
   </div>
   <div className="">
     <img src={lepole} className=''/>
+    
+    
   
 
 
-  </div> */}
+  </div> 
 
 </div> 
 
@@ -96,7 +98,7 @@ parly stage startine</p>
 
 
 
-    {/* <div className="lg:w-[1024px]  w-full  mx-auto mr-[4rem] ml-[4rem] block">
+    <div className="lg:w-[1024px]  w-full  mx-auto mr-[4rem] ml-[4rem] block">
       <div className="">
 
 
@@ -166,7 +168,7 @@ About
 
 
     </div>
-       */}
+       
     </>
   )
 }
